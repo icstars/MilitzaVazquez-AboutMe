@@ -1,2 +1,0 @@
-# MilitzaVazquez-AboutMe
- portfolio
