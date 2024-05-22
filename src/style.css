@@ -73,6 +73,13 @@ main section {
   }
 
   75% {
+    background-image: url("https://th.bing.com/th/id/OIP.e3tyW82PVdUK4Bxnco5ddAHaEK?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+
+    background-size: contain;
+  }
+
+  100% {
     background-image: url("https://www.hdwallpapers.in/download/ryu_street_fighter_5-3840x2160.jpg");
     background-repeat: no-repeat;
 
