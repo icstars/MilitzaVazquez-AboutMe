@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development", // This can be overridden by the --mode option in npm scripts
-  entry: "./src/app.js", // Make sure this path points to your main JS file
+  entry: "./docs/app.js", // Make sure this path points to your main JS file
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
@@ -28,12 +28,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // Ensure this points to your HTML template
+      template: "./docs/index.html", // Ensure this points to your HTML template
     }),
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, "src"),
+      directory: path.join(__dirname, "docs"),
     },
     compress: true,
     port: 3001,
